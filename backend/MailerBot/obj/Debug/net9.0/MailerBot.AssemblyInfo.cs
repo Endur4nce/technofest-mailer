@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MailerBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bbabf39b91665b2a1bc3d295a8a1d9bd96eee2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fce4a54735a8e7a047c3e70300fa2b351eee15b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MailerBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MailerBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,10 @@
+using MailerBot.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System.Net;
+using System.Net.Mail;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +29,14 @@ builder.Services.AddCors(options =>
         policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
+
+// Сюда нужно вставить почту и app password от почты.
+builder.Services.AddSingleton(new EmailService(
+    smtpServer: "smtp.gmail.com",
+    port: 587,
+    from: "mail",
+    password: "app pass"
+));
 
 var app = builder.Build();
 
