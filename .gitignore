@@ -1,0 +1,46 @@
+# === .NET build folders ===
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# === User-specific files ===
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === Visual Studio Code ===
+.vscode/
+.history/
+*.code-workspace
+
+# === Build outputs ===
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# === System files ===
+Thumbs.db
+.DS_Store
+
+# === Environment files ===
+.env
+.env.*
+
+# === Uploaded files ===
+backend/MailerBot/Uploads/
+*.xlsx
+
+# === Node (frontend) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# === Backup / temp ===
+*.bak
+*.tmp
+*.swp
